@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <main class="container">
+    <h1>Formulário de multiplas escolhas</h1>
+    <input type="text" id="nome" placeholder="Nome">
+    <h2>selecione o formulário</h2>
+    <select name="" id="opcao">
+        <option value="selecionar">selecionar</option>
+        <option value="fisico">Físico</option>
+        <option value="juridico">Juridico</option>
+    </select>
+     
+    <div id="div-fisico" class="esconder">
+        <div id="msgGeral" class="msg-geral esconder"></div>
+        <h2>Físico</h2>
+        <input id="cpf" type="text" placeholder="CPF">
+        <input id="rg" type="text" placeholder="RG">
+        <input id="idade" type="text" placeholder="Idade">
+    </div>
+
+    <div id="div-juridico" class="esconder">
+        <div id="msgJuridico" class="msg-juridico esconder"></div>
+        <h2>Juridico</h2>
+        <input id="cnpj" type="text" placeholder="CNPJ">
+        <input id="ie" type="text" placeholder="IE">
+        <input id="nomeFantasia" type="text" placeholder="Nome da fantasia">
+    </div>
+    <button id="next">Next</button>
+    <button id="validar">Validar</button>
+
+    <script src="app.js"></script>
+</main>
+</body>
+
+</html>
