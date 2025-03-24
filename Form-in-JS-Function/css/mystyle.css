@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.esconder{
+    display: none;
+}
+.exibir{
+    display: block;
+}
+
+.danger{
+    background-color: red;
+    border: 1px solid red;
+}
+
+h1{
+    text-align: center;
+}
